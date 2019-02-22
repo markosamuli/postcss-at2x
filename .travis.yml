@@ -7,3 +7,7 @@ node_js:
   - "lts/*"
   - "8"
   - "6"
+before_install:
+  - if [ "${TRAVIS_PULL_REQUEST}" != "false" ]; then npm i -g audit-ci; fi
+scripts:
+  - if [ "${TRAVIS_PULL_REQUEST}" != "false" ]; then audit-ci --moderate; fi
