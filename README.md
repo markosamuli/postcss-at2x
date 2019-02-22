@@ -1,4 +1,4 @@
-# postcss-at2x [![Build Status](https://travis-ci.org/markosamuli/postcss-at2x.svg)](https://travis-ci.org/markosamuli/postcss-at2x) ![node (scoped)](https://img.shields.io/node/v/@markosamuli/postcss-at2x.svg) ![npm (scoped)](https://img.shields.io/npm/v/@markosamuli/postcss-at2x.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/markosamuli/postcss-at2x.svg)
+# postcss-at2x [![Build Status](https://travis-ci.org/markosamuli/postcss-at2x.svg)](https://travis-ci.org/markosamuli/postcss-at2x) ![node (scoped)](https://img.shields.io/node/v/@markosamuli/postcss-at2x.svg) ![npm (scoped)](https://img.shields.io/npm/v/@markosamuli/postcss-at2x.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/markosamuli/postcss-at2x.svg) [![Known Vulnerabilities](https://snyk.io/test/npm/@markosamuli/postcss-at2x/badge.svg)](https://snyk.io/test/npm/@markosamuli/postcss-at2x)
 
 Forked from [postcss-at2x](https://github.com/simonsmith/postcss-at2x) to
 address security vulnerabilities in the development dependencies.
