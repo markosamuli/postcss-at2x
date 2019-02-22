@@ -2,7 +2,7 @@ import postcss from 'postcss';
 import fs from 'fs';
 import path from 'path';
 import imageSize from 'image-size';
-import plugin from '../lib/';
+import plugin from '../src';
 
 
 jest.mock('image-size');
@@ -76,7 +76,8 @@ describe('plugin API', () => {
         expect(typeof value).toBe('string');
         expect(source).toHaveProperty('input.css');
         return path.resolve(process.cwd(), value);
-      }}, done);
+      },
+    }, done);
   });
 
   it('should have proper arguments for resolve image path function', (done) => {
