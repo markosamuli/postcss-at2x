@@ -1,6 +1,10 @@
 # postcss-at2x [![Build Status](https://travis-ci.org/markosamuli/postcss-at2x.svg)](https://travis-ci.org/markosamuli/postcss-at2x)
 
-Forked from [simonsmith/postcss-at2x](https://github.com/simonsmith/postcss-at2x)
+Forked from [postcss-at2x](https://github.com/simonsmith/postcss-at2x) to
+address security vulnerabilities in the development dependencies.
+
+Moved @babel/cli into devDependencies from dependencies to avoid installing it
+in applications that use this package.
 
 Ported from [rework-plugin-at2x](https://github.com/reworkcss/rework-plugin-at2x)
 
