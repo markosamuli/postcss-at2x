@@ -1,11 +1,13 @@
-# postcss-at2x [![Build Status](https://travis-ci.org/simonsmith/postcss-at2x.svg)](https://travis-ci.org/simonsmith/postcss-at2x)
+# postcss-at2x [![Build Status](https://travis-ci.org/markosamuli/postcss-at2x.svg)](https://travis-ci.org/markosamuli/postcss-at2x)
+
+Forked from [simonsmith/postcss-at2x](https://github.com/simonsmith/postcss-at2x)
 
 Ported from [rework-plugin-at2x](https://github.com/reworkcss/rework-plugin-at2x)
 
 ## Installation
 
 ```console
-$ npm install postcss-at2x --save-dev
+npm install postcss-at2x --save-dev
 ```
 
 ## Usage
