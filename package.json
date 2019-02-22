@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simonsmith/postcss-at2x.git"
+    "url": "https://github.com/markosamuli/postcss-at2x.git"
   },
   "main": "lib/index.js",
   "files": [

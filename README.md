@@ -7,7 +7,7 @@ Ported from [rework-plugin-at2x](https://github.com/reworkcss/rework-plugin-at2x
 ## Installation
 
 ```console
-npm install postcss-at2x --save-dev
+npm install @markosamuli/postcss-at2x --save-dev
 ```
 
 ## Usage
