@@ -15,7 +15,7 @@ npm install @markosamuli/postcss-at2x --save-dev
 ```js
 const fs = require('fs');
 const postcss = require('postcss');
-const at2x = require('postcss-at2x');
+const at2x = require('@markosamuli/postcss-at2x');
 
 const input = fs.readFileSync('input.css', 'utf8');
 
