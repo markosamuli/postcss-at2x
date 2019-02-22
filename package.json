@@ -15,7 +15,10 @@
     "type": "git",
     "url": "https://github.com/simonsmith/postcss-at2x.git"
   },
-  "main": "build/index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
   "dependencies": {
     "image-size": "^0.6.0",
     "is-url": "^1.2.2",
@@ -39,8 +42,8 @@
     "jshint-stylish": "^2.2.1"
   },
   "scripts": {
-    "lint": "eslint lib/index.js test/test.js",
-    "build": "cross-env BABEL_ENV=production babel lib --out-dir build",
+    "lint": "eslint src/index.js test/test.js",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir lib",
     "test": "jest && npm run lint",
     "prepublish": "npm run build"
   }

@@ -2,7 +2,7 @@
 
 node_modules/
 
-lib/
+src/
 test/
 .travis.yml
 
