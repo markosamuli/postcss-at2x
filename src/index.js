@@ -87,9 +87,9 @@ function addRetinaRule(ruleContainer, mediaParent, decl, retinaImages, size) {
   }
 
   // Create the rules and append them to the container
-  const params = mediaParent.name === 'media' ?
-    combineMediaQuery(mediaParent.params.split(/,\s*/), defaultResolutions) :
-    defaultResolutions.join(', ');
+  const params = mediaParent.name === 'media'
+    ? combineMediaQuery(mediaParent.params.split(/,\s*/), defaultResolutions)
+    : defaultResolutions.join(', ');
   const mediaAtRule = postcss.atRule({name: 'media', params});
 
   mediaAtRule.append(retinaRule);
