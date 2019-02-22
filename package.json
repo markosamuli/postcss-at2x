@@ -48,6 +48,6 @@
     "lint": "eslint src/index.js test/test.js",
     "build": "cross-env BABEL_ENV=production babel src --out-dir lib",
     "test": "jest && npm run lint",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   }
 }
